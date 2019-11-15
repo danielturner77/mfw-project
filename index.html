@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<!-- .container-fluid>.container>(header.container>nav.row)  -->
+<div class="container-fluid">
+<header class="container">
+<nav class="row">
+   <div class="col-md-12">
+       <ul class="nav nav-pills">
+       <li role="presentation" class="active"><a href="#">Home</a></li>
+       <li role="presentation"><a href="https://google.com">Google Us</a></li>
+       <li role="presentation"><a href="#info">Our Info</a></li>
+     </ul>
+   </div>
+</nav>
+</header>
+<div class="jumbotron">
+   <div class="container">
+       <h1 class="text-center">
+           <span class="text-uppercase">Views</span>
+           from
+           <span class="text-upercase">London</span>
+       </h1>
+   </div>
+</div>
+<!-- .container>.row>(.col-md-6>.row>.col-md-4.col-md-offset-3>(img.img-responsive+h2{TEST}+p{lorem100}+button.btn.btn-primary))+(.col-md-6>h2{TEST 2}+ul>(li)*4)*1  -->
+<div class="container">
+   <div class="row">
+       <div class="col-md-6">
+           <div class="row">
+               <div class="col-md-8 col-md-offset-3">
+                   <img src="img/tele-booth.jpg" alt="tele booth" class="img-responsive">
+                   <h2>TEST</h2>
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio maxime natus in vel amet assumenda aperiam. Modi consequuntur magni enim molestiae fugiat nobis illum, iusto voluptatibus tempore fuga numquam mollitia odio fugit facilis quisquam adipisci minus natus officiis quam omnis aut quos blanditiis expedita? Earum nisi ipsa minus, culpa officia dolorum aut a ullam sequi. Et ab autem blanditiis placeat veritatis, natus facere totam veniam suscipit ducimus iusto id voluptatem atque vero ut reprehenderit, pariatur incidunt at expedita. Error, laboriosam. Et commodi similique, sunt iste, laboriosam facilis accusamus omnis aspernatur alias debitis non delectus pariatur quasi ut rerum maxime reiciendis.</p>
+                   <button class="btn btn-primary"></button>
+               </div>
+           </div>
+       </div>
+       <div class="col-md-6">
+           <h2>Why Us?</h2>
+           <ul>
+               <li>Reliable transportation</li>
+               <li>Exciting new development</li>
+               <li>Entertainment in your back yard</li>
+               <li>And many more options...</li>
+           </ul>
+           <div class="well">
+               Quick fact: <strong>99% of people who live here never leave <span class="text-info">100%</span> of the time.</strong>
+           </div>
+       </div>
+   </div>
+</div>
+</div>
+</body>
+</html>
